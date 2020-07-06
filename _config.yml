@@ -1,10 +1,10 @@
 # --- Basic options --- #
 
 # Name of website
-title: My personal website
+title: Tech | Web Dev | ML
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: A virtual proof that I'm a nerd
 
 # Your name to show in the footer
 author: Prabhat
@@ -16,7 +16,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Author's home: "https://saddisticdude.github.io"
 
 # --- Logo --- #
 
@@ -39,38 +39,19 @@ round-avatar: true
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
   email: "prabhatsharma7298@gmail.com"
-  facebook: prabhat.7298
   github: SaddisticDude
   twitter: SaddisticDude
-  rss: true
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
+  linkedin: "https://www.linkedin.com/in/prabhat-sharma7298/"
 
 # --- General options --- #
 
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
   github: true
   email: true
+  linkedin: true
 
-# How to display the link to your website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
@@ -102,10 +83,9 @@ footer-link-col: "#404040"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
-
+# gtag: 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-171788037-1"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -166,7 +146,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Asia/Kolkata"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -185,7 +165,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      readtime: false # add estimated reading time on all blog posts
+      readtime: true # add estimated reading time on all blog posts
   -
     scope:
       path: "" # all files
